@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Collaboration: React.FC = () => {
@@ -11,7 +12,7 @@ const Collaboration: React.FC = () => {
   
       <div className="relative z-20 flex flex-col items-center gap-2 text-center">
         <h4 className="text-center text-3xl font-medium tracking-tighter text-text-primary dark:text-dark-text-primary sm:max-w-full sm:px-0 md:text-4xl">
-          Enhance your team's productivity with Acme
+          Enhance your teams productivity with Acme
         </h4>
         <p className="text-lg text-text-secondary dark:text-dark-text-secondary md:text-xl">
           Write in threads, focus, and collaborate without video calls.
@@ -19,12 +20,12 @@ const Collaboration: React.FC = () => {
       </div>
   
       <div className="relative z-10 flex items-center gap-2">
-        <a
+        <Link
           className="gap-1 bg-[#1FDD8A]/60 font-normal shrink-0 rounded-full ring-control focus-visible:ring-2 outline-none bg-accent-500 hover:bg-accent-600 text-textOnAccent-primary border-accent-600 inline-flex items-center justify-center px-3.5 text-sm h-8 md:px-5"
           href="/"
         >
           Get started
-        </a>
+        </Link>
         
       </div>
     </article>

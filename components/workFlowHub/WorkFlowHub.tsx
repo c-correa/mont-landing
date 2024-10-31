@@ -1,9 +1,6 @@
 import React from "react";
 import Frameicon from "@/public/svg/Frameicon";
 import FrameiconTime from "@/public/svg/FrameiconTime";
-import FrameiconGemini from "@/public/svg/FrameiconGemini";
-import FrameiconCharts from "@/public/svg/FrameiconCharts";
-import FrameiconBlocks from "@/public/svg/FrameiconBlocks";
 import FrameiconAsterisk from "@/public/svg/FrameiconAsterisk";
 
 interface CardProps {

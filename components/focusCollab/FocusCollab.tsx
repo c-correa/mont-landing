@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FocusCollab: React.FC = () => {
@@ -13,12 +14,12 @@ const FocusCollab: React.FC = () => {
           </p>
         </div>
         <div className="flex justify-center gap-2 md:flex lg:flex-col">
-          <a
+          <Link
             className="bg-[#1FDD8A]/40  w-60 rounded-full px-4 py-3 font-bold text-lg text-[#CECECE]"
             href="/"
           >
             Agendar una reunión
-          </a>
+          </Link>
         </div>
       </article>
     </section>

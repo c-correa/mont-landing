@@ -1,6 +1,5 @@
-import Link from 'next/link'
 import React from 'react'
-import { Instagram, Facebook, Twitter } from 'lucide-react';
+// import { InstagramIcon, Facebook, Twitter } from 'lucide-react';
 
 
 const Footer = () => {
@@ -8,7 +7,7 @@ const Footer = () => {
         <div className="w-full border-t border-gray-200 dark:border-gray-800 py-6">
             <div className='flex py-10 px-20 justify-between max-md:flex-col'>
                 <div className='flex w-full '>
-                    <ul>
+                    {/* <ul>
                         <li>
                             <Link href="/">Home</Link>
                         </li>
@@ -21,15 +20,15 @@ const Footer = () => {
                         <li>
                             <Link href="/">Privacy Policy</Link>
                         </li>
-                    </ul>
-                    <ul>
+                    </ul> */}
+                    {/* <ul>
                         <li>
                             <Link href="/">Terms of Service</Link>
                         </li>
                         <li>
                             <Link href="/">Contact</Link>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className='flex w-full gap-10 flex-col'>
                     <div>
@@ -44,15 +43,15 @@ const Footer = () => {
                     </div>
                     <div className='flex gap-4'>
                         <ul className='flex gap-4'>
-                            <li>
-                                <Instagram />
+                            {/* <li>
+                                <InstagramIcon />
                             </li>
                             <li>
                                 <Facebook />
                             </li>
                             <li>
                                 <Twitter />
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Hero: React.FC = () => {
@@ -30,12 +31,12 @@ const Hero: React.FC = () => {
         </div>
         <div className="flex items-start justify-center px-8 sm:px-24 border-t !border-[#27272A]">
           <div className="flex w-full max-w-[80vw] flex-col items-center justify-start md:max-w-[392px]">
-            <a
+            <Link
               className="gap-1 border-t-0 !border-[#27272A] bg-[#1FDD8A] font-bold shrink-0 ring-control focus-visible:ring-2 outline-none bg-surface-secondary text-[#333333] border-l border-r border-b border-border dark:bg-dark-surface-secondary dark:text-dark-text-primary dark:border-dark-border hover:bg-surface-tertiary dark:hover:bg-dark-surface-tertiary items-center justify-center px-3.5 text-xl md:px-5 h-14 flex w-full transition-colors duration-150 hover:bg-black/5 hover:text-white dark:hover:bg-white/5"
               href="/"
             >
               Agenda una llamada
-            </a>
+            </Link>
           </div>
         </div>
       </div>
