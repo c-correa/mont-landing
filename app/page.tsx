@@ -30,9 +30,6 @@ const Home: React.FC = () => {
       {/* <div className='mt-10 w-full flex justify-center'>
       <OurTechStack />
       </div> */}
-<script src="./gsap.min.js"></script>
-
-<script src="./ScrollTrigger.min.js"></script>  
   </div>
   );
 };
