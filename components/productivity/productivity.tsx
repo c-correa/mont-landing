@@ -1,3 +1,5 @@
+"use client";
+import React, { useEffect, useRef } from "react";
 import {
   Card,
   CardContent,
@@ -15,7 +17,7 @@ const Productivity: React.FC = () => {
   return (
     <>
       <section className="flex flex-col gap-10 items-center lg:!flex-row lg:container lg:gap-0 lg:mx-auto lg:p-28 md:py-[72px] py-14 relative">
-        <div className="container lg:pl-0 lg:pr-12 lg:w-1/2 mx-auto px-6 relative self-stretch shrink top-0 xl:pr-20">
+        <div className="container box-c lg:pl-0 lg:pr-12 lg:w-1/2 mx-auto px-6 relative self-stretch shrink top-0 xl:pr-20">
           <div className="sticky bottom-0 top-[calc(var(--header-height)+40px)] flex flex-col gap-10">
             <div className="flex flex-col gap-3 self-start items-start">
               <div className="flex justify-center items-center bg-[#1FDD8A]/10 rounded-[20px] ">
@@ -52,7 +54,7 @@ const Productivity: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex-1 shrink-0 lg:w-1/2 lg:flex-1">
+        <div className="w-full box-b flex-1 shrink-0 lg:w-1/2 lg:flex-1">
           <div className="no-scrollbar flex gap-10 overflow-auto px-6 lg:flex-col lg:px-0">
             <article className="flex w-[300px] shrink-0 gap-4 rounded-lg  bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
@@ -61,7 +63,7 @@ const Productivity: React.FC = () => {
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                  Real-time Messaging
+                    Real-time Messaging
                   </CardTitle>
                   <p>
                     Instantly communicate with your team, ensuring swift decision-making and seamless collaboration on project tasks and updates.
@@ -76,25 +78,25 @@ const Productivity: React.FC = () => {
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                  Task Management
+                    Task Management
                   </CardTitle>
                   <p>
-                  Organize and prioritize tasks effectively, assigning responsibilities and tracking progress to keep projects on schedule and within scope.
+                    Organize and prioritize tasks effectively, assigning responsibilities and tracking progress to keep projects on schedule and within scope.
                   </p>
                 </CardContent>
               </Card>
             </article>
-            <article className="flex w-[300px] shrink-0  gap-4 rounded-lg bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
+            <article className="flex w-[300px] shrink-0 gap-4 rounded-lg bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
                 <CardHeader className="flex-row align-center gap-3">
                   <BarChar width={54} height={54} fill="white" />
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                  File Sharing
+                    File Sharing
                   </CardTitle>
                   <p>
-                  Share documents, images, and other files effortlessly within your team, enabling easy access to project resources and materials.
+                    Share documents, images, and other files effortlessly within your team, enabling easy access to project resources and materials.
                   </p>
                 </CardContent>
               </Card>
@@ -106,10 +108,10 @@ const Productivity: React.FC = () => {
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                  Real-time Insights
+                    Real-time Insights
                   </CardTitle>
                   <p>
-                  Gain actionable insights instantly with real-time data analysis and visualization.
+                    Gain actionable insights instantly with real-time data analysis and visualization.
                   </p>
                 </CardContent>
               </Card>
@@ -121,10 +123,10 @@ const Productivity: React.FC = () => {
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                  Smart Notifications
+                    Smart Notifications
                   </CardTitle>
                   <p>
-                  Stay informed about project updates and important discussions without being overwhelmed, thanks to customizable notification settings.
+                    Stay informed about project updates and important discussions without being overwhelmed, thanks to customizable notification settings.
                   </p>
                 </CardContent>
               </Card>
