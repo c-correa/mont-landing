@@ -28,7 +28,7 @@ const WorkFlowHub: React.FC = () => {
   return (
     <section className="py-14 md:py-[72px] flex flex-col items-center gap-10 relative">
       <div className="flex justify-center items-center bg-[#1FDD8A]/10 rounded-[20px] ">
-        <p className="text-dark-text-tertiary opacity-50 p-2">Collaboration</p>
+        <p className="text-dark-text-tertiary opacity-50 p-2">Colaboración</p>
       </div>
       <div>
         <h2 className="text-center tracking-tight !text-[#FAFAFA]">
