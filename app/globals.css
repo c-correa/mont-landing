@@ -10,6 +10,17 @@ body{
   --primary-color: #1FDD8A;
 }
 
+.filter-svg {
+  filter: grayscale(100%);
+  transition: filter 300ms ease-in-out 300ms;
+}
+
+.filter-svg:hover {
+  filter: grayscale(0%);
+  transform: translateY(-0.5rem);
+  transition: transform 300ms ease-in-out;
+}
+
 p,
 h1,
 h2,

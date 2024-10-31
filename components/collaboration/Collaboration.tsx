@@ -2,8 +2,8 @@ import React from "react";
 
 const Collaboration: React.FC = () => {
   return (
-    <section className="py-14 md:py-[72px] flex flex-col items-center gap-10 relative container mx-auto px-6">
-    <article className="relative flex flex-col items-center justify-center gap-9 self-stretch overflow-hidden rounded-xl border border-border bg-surface-secondary p-6 dark:border-dark-border dark:bg-dark-surface-secondary">
+    <section className="box-a py-14 md:py-[72px] flex flex-col items-center gap-10 relative container mx-auto px-6">
+    <article className=" bg-[#141416] relative flex flex-col items-center justify-center gap-9 self-stretch overflow-hidden rounded-xl border border-border bg-surface-secondary p-6 dark:border-dark-border dark:bg-dark-surface-secondary">
       <div className="absolute left-0 top-10 h-px w-full bg-gradient-to-l from-black/40 to-transparent dark:from-white/40 dark:to-transparent"></div>
       <div className="absolute bottom-[72px] left-0 h-px w-full bg-gradient-to-l from-black/40 to-transparent dark:from-white/40 dark:to-transparent"></div>
       <div className="absolute bottom-7 left-0 h-px w-full bg-gradient-to-l from-black/40 to-transparent dark:from-white/40 dark:to-transparent"></div>
@@ -20,17 +20,12 @@ const Collaboration: React.FC = () => {
   
       <div className="relative z-10 flex items-center gap-2">
         <a
-          className="gap-1 font-normal shrink-0 rounded-full ring-control focus-visible:ring-2 outline-none bg-accent-500 hover:bg-accent-600 text-textOnAccent-primary border-accent-600 inline-flex items-center justify-center px-3.5 text-sm h-8 md:px-5"
-          href="/sign-up"
+          className="gap-1 bg-[#1FDD8A]/60 font-normal shrink-0 rounded-full ring-control focus-visible:ring-2 outline-none bg-accent-500 hover:bg-accent-600 text-textOnAccent-primary border-accent-600 inline-flex items-center justify-center px-3.5 text-sm h-8 md:px-5"
+          href="/"
         >
           Get started
         </a>
-        <a
-          className="gap-1 font-normal shrink-0 rounded-full ring-control focus-visible:ring-2 outline-none bg-surface-secondary text-text-primary border border-border dark:bg-dark-surface-secondary dark:text-dark-text-primary dark:border-dark-border hover:bg-surface-tertiary dark:hover:bg-dark-surface-tertiary inline-flex items-center justify-center px-3.5 text-sm h-8 md:px-5"
-          href="#"
-        >
-          See more
-        </a>
+        
       </div>
     </article>
   </section>
