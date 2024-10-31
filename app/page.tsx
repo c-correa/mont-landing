@@ -14,6 +14,7 @@ import Management from "@/components/management/Management";
 import FocusCollab from "@/components/focusCollab/FocusCollab";
 import WorkFlowHub from "@/components/workFlowHub/WorkFlowHub";
 import Productivity from "@/components/productivity/productivity";
+import Collaboration from "@/components/collaboration/Collaboration";
 const Home: React.FC = () => {
   return (
     <div className="w-full h-full">
@@ -26,7 +27,8 @@ const Home: React.FC = () => {
       <FocusCollab/>
       <WorkFlowHub/>
       <Productivity/>
-      
+      <Collaboration/>
+    
 
       {/* <div className='mt-10 w-full flex justify-center'>
       <OurTechStack />

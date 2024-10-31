@@ -1,12 +1,15 @@
 import {
   Card,
   CardContent,
-  CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import FrameiconGemini from "@/public/svg/FrameiconGemini";
+import BarChar from "@/public/svg/BarChar";
+import Command from "@/public/svg/Command";
+import Message from "@/public/svg/Message";
+import Mail from "@/public/svg/Mail";
+import Smile from "@/public/svg/Smile";
+import Zap from "@/public/svg/Zap";
 
 const Productivity: React.FC = () => {
   return (
@@ -54,16 +57,14 @@ const Productivity: React.FC = () => {
             <article className="flex w-[300px] shrink-0 gap-4 rounded-lg  bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
                 <CardHeader className="flex-row align-center gap-3">
-                  <FrameiconGemini width={54} height={54} fill="white" />
+                  <Mail width={54} height={54} fill="white" />
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                    Team Analytics
+                  Real-time Messaging
                   </CardTitle>
                   <p>
-                    Gain insights into team performance and communication trends
-                    with built-in analytics, empowering you to optimize
-                    workflows and enhance productivity.
+                    Instantly communicate with your team, ensuring swift decision-making and seamless collaboration on project tasks and updates.
                   </p>
                 </CardContent>
               </Card>
@@ -71,16 +72,14 @@ const Productivity: React.FC = () => {
             <article className="flex w-[300px] shrink-0 gap-4 rounded-lg bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
                 <CardHeader className="flex-row align-center gap-3">
-                  <FrameiconGemini width={54} height={54} fill="white" />
+                  <Zap width={54} height={54} fill="white" />
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                    Team Analytics
+                  Task Management
                   </CardTitle>
                   <p>
-                    Gain insights into team performance and communication trends
-                    with built-in analytics, empowering you to optimize
-                    workflows and enhance productivity.
+                  Organize and prioritize tasks effectively, assigning responsibilities and tracking progress to keep projects on schedule and within scope.
                   </p>
                 </CardContent>
               </Card>
@@ -88,16 +87,14 @@ const Productivity: React.FC = () => {
             <article className="flex w-[300px] shrink-0  gap-4 rounded-lg bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
                 <CardHeader className="flex-row align-center gap-3">
-                  <FrameiconGemini width={54} height={54} fill="white" />
+                  <BarChar width={54} height={54} fill="white" />
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                    Team Analytics
+                  File Sharing
                   </CardTitle>
                   <p>
-                    Gain insights into team performance and communication trends
-                    with built-in analytics, empowering you to optimize
-                    workflows and enhance productivity.
+                  Share documents, images, and other files effortlessly within your team, enabling easy access to project resources and materials.
                   </p>
                 </CardContent>
               </Card>
@@ -105,16 +102,14 @@ const Productivity: React.FC = () => {
             <article className="flex w-[300px] shrink-0 gap-4 rounded-lg bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
                 <CardHeader className="flex-row align-center gap-3">
-                  <FrameiconGemini width={54} height={54} fill="white" />
+                  <Smile width={54} height={54} fill="white" />
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                    Team Analytics
+                  Real-time Insights
                   </CardTitle>
                   <p>
-                    Gain insights into team performance and communication trends
-                    with built-in analytics, empowering you to optimize
-                    workflows and enhance productivity.
+                  Gain actionable insights instantly with real-time data analysis and visualization.
                   </p>
                 </CardContent>
               </Card>
@@ -122,16 +117,14 @@ const Productivity: React.FC = () => {
             <article className="flex w-[300px] shrink-0 gap-4 rounded-lg bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
                 <CardHeader className="flex-row align-center gap-3">
-                  <FrameiconGemini width={54} height={54} fill="white" />
+                  <Command width={54} height={54} fill="white" />
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">
-                    Team Analytics
+                  Smart Notifications
                   </CardTitle>
                   <p>
-                    Gain insights into team performance and communication trends
-                    with built-in analytics, empowering you to optimize
-                    workflows and enhance productivity.
+                  Stay informed about project updates and important discussions without being overwhelmed, thanks to customizable notification settings.
                   </p>
                 </CardContent>
               </Card>
@@ -139,7 +132,7 @@ const Productivity: React.FC = () => {
             <article className="flex w-[300px] shrink-0 gap-4 rounded-lg bg-surface-secondary p-4 dark:border-dark-border dark:bg-dark-surface-secondary lg:w-full lg:flex-row lg:p-5">
               <Card className="flex">
                 <CardHeader className="flex-row align-center gap-3">
-                  <FrameiconGemini width={54} height={54} fill="white" />
+                  <Message width={54} height={54} fill="white" />
                 </CardHeader>
                 <CardContent className="p-3">
                   <CardTitle className="text-3xl mb-3">

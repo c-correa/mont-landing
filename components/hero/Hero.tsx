@@ -18,7 +18,7 @@ const Hero: React.FC = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="border-b !border-[#27272A]">
           <div className="mx-auto flex min-h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 px-2 py-4 sm:px-16 lg:px-24">
             <h1 className="max-w-screen-lg text-pretty text-center text-[clamp(32px,7vw,64px)] font-medium leading-none tracking-[-1.44px] text-text-primary dark:text-dark-text-primary md:tracking-[-2.16px]">
               Streamlined Communication for Iterating Fast
@@ -29,10 +29,10 @@ const Hero: React.FC = () => {
             </h2>
           </div>
         </div>
-        <div className="flex items-start justify-center px-8 sm:px-24">
+        <div className="flex items-start justify-center px-8 sm:px-24 border-t !border-[#27272A]">
           <div className="flex w-full max-w-[80vw] flex-col items-center justify-start md:max-w-[392px]">
             <a
-              className="gap-1 bg-[#1FDD8A] font-bold shrink-0 ring-control focus-visible:ring-2 outline-none bg-surface-secondary text-[#333333] border-l border-r border-b border-border dark:bg-dark-surface-secondary dark:text-dark-text-primary dark:border-dark-border hover:bg-surface-tertiary dark:hover:bg-dark-surface-tertiary items-center justify-center px-3.5 text-xl md:px-5 h-14 flex w-full transition-colors duration-150 hover:bg-black/5 hover:text-white dark:hover:bg-white/5"
+              className="gap-1 border-t-0 !border-[#27272A] bg-[#1FDD8A] font-bold shrink-0 ring-control focus-visible:ring-2 outline-none bg-surface-secondary text-[#333333] border-l border-r border-b border-border dark:bg-dark-surface-secondary dark:text-dark-text-primary dark:border-dark-border hover:bg-surface-tertiary dark:hover:bg-dark-surface-tertiary items-center justify-center px-3.5 text-xl md:px-5 h-14 flex w-full transition-colors duration-150 hover:bg-black/5 hover:text-white dark:hover:bg-white/5"
               href="/"
             >
               Schedule a Call

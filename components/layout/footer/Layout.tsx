@@ -6,8 +6,8 @@ import { Instagram, Facebook, Twitter } from 'lucide-react';
 const Footer = () => {
     return (
         <div className="w-full border-t border-gray-200 dark:border-gray-800 py-6">
-            <div className='flex py-10 px-20 justify-between'>
-                <div className='flex w-full gap-40'>
+            <div className='flex py-10 px-20 justify-between max-md:flex-col'>
+                <div className='flex w-full '>
                     <ul>
                         <li>
                             <Link href="/">Home</Link>
