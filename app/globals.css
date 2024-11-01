@@ -48,6 +48,11 @@ body {
   font-family: poppins, sans-serif;
 }
 
+.container {
+  width: 90%;
+  margin: auto;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
