@@ -35,20 +35,6 @@ const Productivity: React.FC = () => {
               Aprovechamos el poder de la inteligencia artificial para crear soluciones digitales de última generación, impulsando eficiencia y crecimiento en cada proyecto. Con tecnología avanzada y un enfoque personalizado, te ayudamos a enfrentar los desafíos del futuro, hoy.
               </p>
             </div>
-            <div className="flex items-center gap-3 md:order-3">
-              <a
-                className="gap-1 font-normal shrink-0 rounded-full ring-control focus-visible:ring-2 outline-none outline-0 bg-accent-500 hover:bg-accent-600 text-textOnAccent-primary border-accent-600 inline-flex items-center justify-center h-9 px-5 text-sm md:text-base md:h-10"
-                href="/sign-up"
-              >
-                Get started
-              </a>
-              <a
-                className="gap-1 font-normal shrink-0 rounded-full ring-control focus-visible:ring-2 outline-none outline-0 bg-surface-secondary text-text-primary border-border border dark:bg-dark-surface-secondary dark:text-dark-text-primary dark:border-dark-border hover:bg-surface-tertiary dark:hover:bg-dark-surface-tertiary inline-flex items-center justify-center h-9 px-5 text-sm md:text-base md:h-10"
-                href="/features/realtime-insights"
-              >
-                See more
-              </a>
-            </div>
           </div>
         </div>
         <div className="w-full box-b flex-1 shrink-0 lg:w-1/2 lg:flex-1">
