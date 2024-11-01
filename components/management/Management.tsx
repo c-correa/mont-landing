@@ -17,16 +17,16 @@ const Card: React.FC<CardProps> = ({ icon, title, description }) => (
     <figure className="border border-1 border-[#27272A] w-min p-2 rounded-[50%]">
       {icon}
     </figure>
-    <div className="text-center flex-grow"> {/* Allow the text container to grow and fill space */}
+    <div className="text-center flex-grow">
       <h2 className="text-[#FAFAFA]">{title}</h2>
-      <p className="text-dark-text-tertiary opacity-50">{description}</p>
+      <p className="!text-base opacity-50">{description}</p>
     </div>
   </div>
 );
 
 const Management: React.FC = () => {
   return (
-    <section className="py-14 md:py-[72px] flex flex-col items-center gap-10 relative">
+    <section className="container py-14 md:py-[72px] flex flex-col items-center gap-10 relative">
       <div className="flex justify-center items-center bg-[#1FDD8A]/10 rounded-[20px] ">
         <p className="text-dark-text-tertiary opacity-50 p-2">Gestión</p>
       </div>
@@ -34,7 +34,7 @@ const Management: React.FC = () => {
         <h2 className="text-center tracking-tight !text-[#FAFAFA]">
         Planificación Ágil de Proyectos
         </h2>
-        <p className="text-center !text-[#FAFAFA] opacity-50">
+        <p className="container text-center !text-[#FAFAFA] opacity-50">
         Impulsamos el éxito de tus proyectos con gestión ágil, adaptada a equipos de todos los tamaños y centrada en el desarrollo rápido de soluciones a medida.
         </p>
       </div>
