@@ -14,7 +14,7 @@ const Card: React.FC<CardProps> = ({ icon, title, description }) => (
     <figure className="border border-1 border-[#27272A] w-min p-2 rounded-[50%]">
       {icon}
     </figure>
-    <div className="text-center flex-grow"> {/* Allow the text container to grow and fill space */}
+    <div className="text-center flex-grow">
       <h2 className="text-[#FAFAFA]">{title}</h2>
       <p className="text-dark-text-tertiary opacity-50">{description}</p>
     </div>
@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({ icon, title, description }) => (
 
 const WorkFlowHub: React.FC = () => {
   return (
-    <section className="py-14 md:py-[72px] flex flex-col items-center gap-10 relative">
+    <section className="container py-14 md:py-[72px] flex flex-col items-center gap-10 relative">
       <div className="flex justify-center items-center bg-[#1FDD8A]/10 rounded-[20px] ">
         <p className="text-dark-text-tertiary opacity-50 p-2">Colaboración</p>
       </div>
@@ -31,7 +31,7 @@ const WorkFlowHub: React.FC = () => {
         <h2 className="text-center tracking-tight !text-[#FAFAFA]">
         Seamless Collaboration, Enhanced Productivity
         </h2>
-        <p className="text-center !text-[#FAFAFA] opacity-50">
+        <p className="container !text-base text-center !text-[#FAFAFA] opacity-50">
         Empower your team with integrated tools for file sharing, task management, and real-time collaboration, ensuring smooth project workflows from start to finish.
         </p>
       </div>
